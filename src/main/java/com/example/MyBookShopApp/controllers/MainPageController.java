@@ -32,4 +32,34 @@ public class MainPageController {
     public String mainPage(){
         return "index";
     }
+
+    @GetMapping("/popular")
+    public String popularPage(){
+        return "books/popular";
+    }
+
+    @GetMapping("/recent")
+    public String recentPage(){
+        return "books/recent";
+    }
+
+    @GetMapping("/postponed")
+    public String postponedPage(){
+        return "postponed";
+    }
+
+    @GetMapping("/contacts")
+    public String contactsPage(){
+        return "contacts";
+    }
+
+    @GetMapping("/about")
+    public String aboutPage(){
+        return "about";
+    }
+
+    @GetMapping("/faq")
+    public String faqPage(){
+        return "faq";
+    }
 }
