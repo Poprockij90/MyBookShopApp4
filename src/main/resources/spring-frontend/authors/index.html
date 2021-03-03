@@ -54,7 +54,7 @@
                             А</a>
                     </div>
                     <div class="Authors-block" th:each="authorList : ${authorsMap}">
-                        <h2 class="Authors-title" id="a" th:id="${#strings.toLowerCase(authorList.key)}" th:text="${authorList.key}">А
+                        <h2 class="Authors-title    " id="a" th:id="${#strings.toLowerCase(authorList.key)}" th:text="${authorList.key}">А
                         </h2>
                         <div class="Authors-letter">
                             <div th:each="author : ${authorList.value}" class="Authors-item"><a

@@ -43,11 +43,6 @@ public class MainPageController {
         return "books/recent";
     }
 
-    @GetMapping("/postponed")
-    public String postponedPage(){
-        return "postponed";
-    }
-
     @GetMapping("/contacts")
     public String contactsPage(){
         return "contacts";
