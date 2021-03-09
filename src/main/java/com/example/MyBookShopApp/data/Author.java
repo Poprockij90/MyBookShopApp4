@@ -1,9 +1,10 @@
 package com.example.MyBookShopApp.data;
 
+import org.hibernate.annotations.Type;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 @Entity
 @Table(name = "Authors")
@@ -13,6 +14,11 @@ public class Author {
     private Integer id;
     private String firstName;
     private String lastName;
+
+
+    @Lob
+    @Type(type = "org.hibernate.type.TextType")
+    private String description;
 
     @OneToMany(mappedBy = "author")
     private List<Book> books = new ArrayList<>();
@@ -55,5 +61,13 @@ public class Author {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

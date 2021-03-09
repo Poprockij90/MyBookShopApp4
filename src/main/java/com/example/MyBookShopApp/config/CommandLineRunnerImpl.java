@@ -41,8 +41,8 @@ public class CommandLineRunnerImpl implements CommandLineRunner {
         }
 
 //        deleteTestEntityById(4L);
-        Logger.getLogger(CommandLineRunnerImpl.class.getSimpleName()).info( bookRepository.findBooksByAuthor_FirstName("Alejandrina").toString());
-        Logger.getLogger(CommandLineRunnerImpl.class.getSimpleName()).info( bookRepository.customFindAllBooks().toString());
+        Logger.getLogger(CommandLineRunnerImpl.class.getSimpleName()).info(bookRepository.findBooksByAuthor_FirstName("Alejandrina").toString());
+        Logger.getLogger(CommandLineRunnerImpl.class.getSimpleName()).info(bookRepository.customFindAllBooks().toString());
     }
 
     private void deleteTestEntityById(Long id) {

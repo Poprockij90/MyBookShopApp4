@@ -1,24 +1,25 @@
-insert into authors (id, first_name, last_name) values (1, 'Page', 'Haig');
-insert into authors (id, first_name, last_name) values (2, 'Thorstein', 'Pohlke');
-insert into authors (id, first_name, last_name) values (3, 'Zaccaria', 'Tolomelli');
-insert into authors (id, first_name, last_name) values (4, 'Annalise', 'Willshee');
-insert into authors (id, first_name, last_name) values (5, 'Alejandrina', 'Bonhomme');
-insert into authors (id, first_name, last_name) values (6, 'Myrna', 'Samber');
-insert into authors (id, first_name, last_name) values (7, 'Aida', 'Phelips');
-insert into authors (id, first_name, last_name) values (8, 'Cherise', 'Rolley');
-insert into authors (id, first_name, last_name) values (9, 'Townie', 'Ream');
-insert into authors (id, first_name, last_name) values (10, 'Barbabas', 'Hairesnape');
-insert into authors (id, first_name, last_name) values (11, 'Fifine', 'Swinley');
-insert into authors (id, first_name, last_name) values (12, 'Elia', 'Cribbins');
-insert into authors (id, first_name, last_name) values (13, 'Mirelle', 'Dax');
-insert into authors (id, first_name, last_name) values (14, 'Lee', 'Fronsek');
-insert into authors (id, first_name, last_name) values (15, 'Angelina', 'Goulstone');
-insert into authors (id, first_name, last_name) values (16, 'Venita', 'Peltz');
-insert into authors (id, first_name, last_name) values (17, 'Antonin', 'Le Claire');
-insert into authors (id, first_name, last_name) values (18, 'Peta', 'Garnson');
-insert into authors (id, first_name, last_name) values (19, 'Berte', 'Upchurch');
-insert into authors (id, first_name, last_name) values (20, 'Maurizia', 'Abramzon');
-insert into authors (id, first_name, last_name) values (21, 'Neddy', 'Wathall');
+insert into authors (id, first_name, last_name, description) values (1, 'Page', 'Haig', 'some description');
+insert into authors (id, first_name, last_name, description) values (2, 'Thorstein', 'Pohlke', 'some description');
+insert into authors (id, first_name, last_name, description) values (3, 'Zaccaria', 'Tolomelli', 'some description');
+insert into authors (id, first_name, last_name, description) values (4, 'Annalise', 'Willshee', 'some description');
+insert into authors (id, first_name, last_name, description) values (5, 'Alejandrina', 'Bonhomme', 'some description');
+insert into authors (id, first_name, last_name, description) values (6, 'Myrna', 'Samber', 'some description');
+insert into authors (id, first_name, last_name, description) values (7, 'Aida', 'Phelips', 'some description');
+insert into authors (id, first_name, last_name, description) values (8, 'Cherise', 'Rolley', 'some description');
+insert into authors (id, first_name, last_name, description) values (9, 'Townie', 'Ream', 'some description');
+insert into authors (id, first_name, last_name, description) values (10, 'Barbabas', 'Hairesnape', 'some description');
+insert into authors (id, first_name, last_name, description) values (11, 'Fifine', 'Swinley', 'some description');
+insert into authors (id, first_name, last_name, description) values (12, 'Elia', 'Cribbins', 'some description');
+insert into authors (id, first_name, last_name, description) values (13, 'Mirelle', 'Dax', 'some description');
+insert into authors (id, first_name, last_name, description) values (14, 'Lee', 'Fronsek', 'some description');
+insert into authors (id, first_name, last_name, description) values (15, 'Angelina', 'Goulstone', 'some description');
+insert into authors (id, first_name, last_name, description) values (16, 'Venita', 'Peltz', 'some description');
+insert into authors (id, first_name, last_name, description) values (17, 'Antonin', 'Le', 'some descriptionClaire');
+insert into authors (id, first_name, last_name, description) values (18, 'Peta', 'Garnson', 'some description');
+insert into authors (id, first_name, last_name, description) values (19, 'Berte', 'Upchurch', 'some description');
+insert into authors (id, first_name, last_name, description) values (20, 'Maurizia', 'Abramzon', 'some description');
+insert into authors (id, first_name, last_name, description) values (21, 'Neddy', 'Wathall', 'some description');
+
 
 
 insert into books (id, price, price_old, title, author_id) values (1, 681, 3938, 'Stim', 20);
