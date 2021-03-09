@@ -40,7 +40,7 @@ public class CommandLineRunnerImpl implements CommandLineRunner {
             throw new NullPointerException();
         }
 
-        deleteTestEntityById(4L);
+//        deleteTestEntityById(4L);
         Logger.getLogger(CommandLineRunnerImpl.class.getSimpleName()).info( bookRepository.findBooksByAuthor_FirstName("Alejandrina").toString());
         Logger.getLogger(CommandLineRunnerImpl.class.getSimpleName()).info( bookRepository.customFindAllBooks().toString());
     }
