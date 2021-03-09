@@ -5,4 +5,14 @@
             <column name="description" type="TEXT"/>
         </addColumn>
     </changeSet>
+
+    <changeSet id="addColumnsToBooksTable" author="Andryshik">
+        <addColumn tableName="books">
+            <column name="is_bestseller" type="BOOLEAN" defaultValueBoolean="true"/>
+            <column name="slug" type="VARCHAR(255)"/>
+            <column name="description" type="TEXT"/>
+            <column name="discount" type="BIGSERIAL" defaultValue="0"/>
+            <column name="image" type="VARCHAR(255)"/>
+        </addColumn>
+    </changeSet>
 </databaseChangeLog>

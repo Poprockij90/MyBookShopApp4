@@ -9,5 +9,6 @@
 
     <include file="db/changelog/liquibase-outputChangeLog_init.xml"/>
     <include file="db/changelog/first-changes.xml"/>
+    <include file="db/changelog/data-changes.xml"/>
 
 </databaseChangeLog>

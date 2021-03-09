@@ -1,3 +1,5 @@
+truncate authors cascade;
+
 insert into authors (id, first_name, last_name, description) values (1, 'Page', 'Haig', 'some description');
 insert into authors (id, first_name, last_name, description) values (2, 'Thorstein', 'Pohlke', 'some description');
 insert into authors (id, first_name, last_name, description) values (3, 'Zaccaria', 'Tolomelli', 'some description');
@@ -122,3 +124,7 @@ insert into books (id, price, price_old, title, author_id) values (97, 978, 3529
 insert into books (id, price, price_old, title, author_id) values (98, 2976, 2988, 'Otcom', 8);
 insert into books (id, price, price_old, title, author_id) values (99, 1853, 3936, 'Solarbreeze', 16);
 insert into books (id, price, price_old, title, author_id) values (100, 670, 2494, 'It', 17);
+
+update books set is_bestseller = false where author_id in (1,2);
+
+commit;
